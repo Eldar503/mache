@@ -596,32 +596,21 @@ a {
 
 .template {
     position: relative;
+    padding: 100px 0 100px;
     background: url(https://99px.ru/sstorage/53/2018/02/tmb_218989_616204.png) no-repeat center fixed;
     background-size: cover;
     height: 100vh;
-    width: 100vw;
-}
-
-.template:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
 }
 
 .template__content {
-    position: absolute;
-    left: 50%;
-    top: 30%;
     transform: translateX(-50%);
-    color: #fff;
-    z-index: 2;
+    left: 50%;
+    position: absolute;
     text-align: center;
 }
 
 .template__title {
+    color: #fff;
     position: relative;
     font-size: 42px;
 }
@@ -808,5 +797,36 @@ a {
         margin-left: 0;
         text-align: center;
         flex-direction: column;
+    }
+    .images__content {
+        width: 100%;
+        text-align: center;
+    }
+    .template__title {
+        font-size: 30px;
+    }
+    .template__description {
+        margin: 40px 0 40px;
+        font-size: 12px;
+    }
+    .template__btn {
+        font-size: 12px;
+        padding: 15px 45px;
+        border-radius: 30px;
+    }
+    .template__content {
+        position: static;
+        transform: translateX(0);
+    }
+    .template {
+        height: auto;
+    }
+    .appreciate__title {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 21px;
+    }
+    .appreciate__text {
+        font-size: 12px;
     }
 }
