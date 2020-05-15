@@ -762,10 +762,10 @@ a {
         display: none;
     }
     .hero__title {
-        font-size: 30px;
+        font-size: 18px;
     }
     .hero__description {
-        font-size: 14px;
+        font-size: 12px;
     }
     .hero__btn {
         font-size: 12px;
@@ -822,7 +822,7 @@ a {
         height: auto;
     }
     .appreciate__title {
-        margin-top: 20px;
+        margin-top: 40px;
         font-weight: 300;
         font-size: 21px;
     }
