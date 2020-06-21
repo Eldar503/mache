@@ -883,7 +883,10 @@ a {
      .header__burger span::after{
         transform: translateY(5px);
      }
-     .header__menu.is-active{
+     .header__menu{
+         /* display: flex;
+        transition: 1s;
+         transform: translateX(100%); */
          position: fixed;
          left:0;
          top:0;
@@ -895,6 +898,12 @@ a {
          height: 100%;
          width: 100%;
          background-color: black;
+         transition: 0.3s;
+         transform: translateX(100%);
+     }
+     .header__menu.is-active{
+         transform: translateX(0%);
+
      }
      .header__burger.is-active span{
       height: 0;
